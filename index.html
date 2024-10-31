@@ -4,129 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lenguaje de html y Etiquetas</title>
-    
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body background="imagenes/wb2.png">
+<body>
     <header>
-        <div style="background-color: black; padding: 10px;">
-            <div style="text-align: center ;">
-                <table style="width: 100%;">
-                    <tr>
-                        <td><a href="index.html"    style="color: white; text-decoration: none;">Inicio</a></td>
-                        <td><a href="tablas.html"   style="color: white; text-decoration: none;">Tablas</a></td>
-                        <td><a href="texto.html"    style="color: white; text-decoration: none;">Texto</a></td>
-                        <td><a href="agrupacion.html"    style="color: white;  text-decoration: none;">Agrupación</a></td>
-                        <td><a href="formularios.html"   style="color: white;  text-decoration: none;">Formularios</a></td>
-                        <td><a href="input.html"         style="color: white;  text-decoration: none;">Input</a></td>
-                    </tr>
-                </table>
-            </div>      
-        </div>
+        <div>
+            <table>
+                <tr>
+                    <td><a href="index.html">Inicio</a></td>
+                    <td><a href="tablas.html">Tablas</a></td>
+                    <td><a href="texto.html">Texto</a></td>
+                    <td><a href="agrupacion.html">Agrupación</a></td>
+                    <td><a href="formularios.html">Formularios</a></td>
+                    <td><a href="input.html">Input</a></td>
+                </tr>
+            </table>
+        </div>      
     </header>
     
-    <div style="background-color: white; padding: 10px; ">
-    <main>
-        <div style="text-align: left center justify;">
-        <img src="/imagenes/fondohtml5.png" alt="Descripción de la imagen" align="right" width="600" height="350">
-        <h2><mark>Lenguaje HTML</mark></h2>
-        <p>Bienvenido a la página de HTML. Aquí aprenderás sobre diversas etiquetas y funcionalidades del lenguaje HTML
-        Explora las diferentes secciones para aprender sobre tablas, texto, agrupación de contenido, formularios y entradas de usuario HTML es un lenguaje de marcado mediante el cuál se estructura la base y contenido de 
-        cualquier página web. A continuación aprenderás, no sólo los detalles principales de HTML, sino también  de sus 
-        temáticas relacionadas como posicionamiento SEO, accesibilidad, usabilidad,compatibilidad entre navegadores, etc</p>
-        </div>
-    </main>
-
-    <section>
-        <article>
-            <div style="text-align: left center justify;">
-            <h2>Que es HTML?</h2>
-            <p>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una  página 
-            web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágene y tablas de datos en general </p>
+    <div class="content">
+        <main>
+            <div>
+                <img src="/imagenes/fondohtml5.png" alt="Descripción de la imagen">
+                <h2><mark>Lenguaje HTML</mark></h2>
+                <p>Bienvenido a la página de HTML. Aquí aprenderás sobre diversas etiquetas y funcionalidades del lenguaje HTML
+                Explora las diferentes secciones para aprender sobre tablas, texto, agrupación de contenido, formularios y entradas de usuario HTML es un lenguaje de marcado mediante el cuál se estructura la base y contenido de 
+                cualquier página web. A continuación aprenderás, no sólo los detalles principales de HTML, sino también de sus 
+                temáticas relacionadas como posicionamiento SEO, accesibilidad, usabilidad, compatibilidad entre navegadores, etc</p>
             </div>
-        </article>
-        <aside>
-            <div style="text-align: left center justify;">
-            <h3>Elementos Clave en HTML </h3>
-            
-         <ol>
-                <li><b>Etiquetas:</b> Los elementos HTML se definen mediante etiquetas, que suelen tener una etiqueta de apertura y una de cierre. 
-                Por ejemplo, <code> < p > </code> para un párrafo y  <code> < /p ></code>  para cerrarlo.</li>
-                </br>
-                <li> <b>Atributos: </b> Los elementos pueden tener atributos que proporcionan información adicional. Por ejemplo,  
-                <br>
-                < a > href="https://www.ejemplo.com">Enlace < a > tiene el atributo href que especifica la URL del enlace.</li>
-                <br>
-                <li>
-                <b> Elementos de Bloque y en Línea:</b></li> 
-                <img src="/imagenes/htm2l.png" alt="Descripción de la imagen" title="imagen de elemetos de lineas de html" align="right" width="600" height="350">            
-                <ul>
-                <br>    
-                <b>Elementos de Bloque:</b> Ocupan todo el ancho disponible y comienzan en una nueva línea (ej. < div >, < h1 >).
-                </ul>
-                <br>
-                <ul>
-                <b>lementos en Línea: </b> No rompen el flujo del contenido y solo ocupan el espacio necesario (ej. < a >, < img >).
-                </ul>
-                <br>
-                <li> <strong> Estructura básica de HTML</strong> : Un documento HTML empieza con  < !DOCTYPE html > , seguido de una estructura en bloques:</li>
-                <ul>
-                     <b>< html >: </b> raíz del documento que contiene todos los demás elementos.</ul>
-                <ul> <b> < head> : </b> contiene metadatos (como el título de la página) y enlaces a archivos externos.</ul>
-                <ul> <b>< title >: </b> define el título visible en la pestaña del navegador. </ul>
-                <ul> <b>< body> :  </b>contiene el contenido visible de la página. </ul>
-                <li> <b> Elementos comunes : </b> </li>
-                    <ul> <b>Encabezados </b> ( < h1 >a < h6 >): para títulos y subtítulos.</ul>
-                    <ul> <b>Párrafos  </b> ( < p >): para bloques de texto.</ul>
-                    <ul> <b>Enlaces  </b> ( < p >): s ( < a >): crean hipervínculos.</ul>
-                    <ul> <b>Imágenes  </b> ( < img >): para insertar imágenes.</ul>
-                    <ul> <b>Listas  </b> ( < ul >, < ol >, < li >): para listas.</ul>
-                    <ul> <b>Tablas  </b> ( < table >, < tr >, < td >): para tablas.</ul>  
-                    <ul> <b>Formularios  </b> ( < form >, < input >, < select >, < option >): para formularios.</ul> 
-                    <ul> <b>Elementos de imagen  </b> ( < canvas >, < video >, < audio >): para insertar videos, imágenes y audios.</ul>
-                    <br>
-                <li><b>Las tablas</b> en HTML se utilizan para organizar datos en filas y columnas, ideales para mostrar información <br>
-                 estructurada  como horarios, listas de precios o informes. Aunque no son el método preferido para crear el diseño <br> 
-                  general una página, siguen siendo útiles para la presentación de datos tabulares. </li>
-            </ol>
-            <div style="text-align: center;">
-            <h2>Entonces, ¿qué es HTML en realidad? </h2>
-            <p>
-                HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste
-                en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una
-                determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se
-                 pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc.
-            </p>
-        </div>
-            </div>
-        </aside>
-    </section>
-    
+        </main>
 
-
-
-<footer>
-    <hr>
-    <div style="background-color: black; padding: 10px;">
-        <div style="text-align: center;">
-            <div style="color: white; text-decoration: none;" >
-                <p>&copy; 2024 MiprimersitioWeb. Todos los derechos reservados.</p>
-                <p>
-                  <a href="contacto.html " style="color: white; text-decoration: none;">Contacto</a> |
-                  <a href="privacidad.html" style="color: white; text-decoration: none;">Términos de Servicio</a> |
-                  <a href="privacidad.html" style="color: white; text-decoration: none;">Política de Privacidad</a>
-                </p>
-                <p>
-                  Sígueme en:
-                  <a href="https://www.facebook.com" style="color: white; text-decoration: none;" target="_blank">Facebook</a> |
-                  <a href="https://github.com/batres1530" style="color: white; text-decoration: none;" target="_blank">Github</a> |
-                  <a href="https://www.linkedin.com/in/sergio-david-batres-mart%C3%ADnez-2a0550314/"style="color: white; text-decoration: none;" target="_blank">linkedin</a>
-                </p>
-               
-            </div>
-        </div>      
+        <section>
+            <article>
+                <div>
+                    <h2>Que es HTML?</h2>
+                    <p>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página 
+                    web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágene y tablas de datos en general</p>
+                </div>
+            </article>
+        </section>
     </div>
-
-</footer>
-</div>
 </body>
 </html>
