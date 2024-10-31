@@ -1,0 +1,114 @@
+body {
+    background: url('imagenes/wb2.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 10px 0;
+}
+
+header div {
+    text-align: center;
+}
+
+header table {
+    width: 100%;
+}
+
+header td a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+header td a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content img {
+    float: right;
+    width: 300px;
+    height: auto;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+}
+
+.content h1, .content h2, .content p, .content ul, .content ol {
+    margin: 10px 0;
+}
+
+.content h2 mark {
+    background-color: yellow;
+    color: black;
+}
+
+main {
+    margin: 20px 0;
+}
+
+main div {
+    text-align: center;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+main h2 mark {
+    background-color: yellow;
+    color: black;
+}
+
+section {
+    margin: 20px 0;
+}
+
+article div {
+    margin: 20px 0;
+}
+
+article h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
